@@ -7,6 +7,7 @@
 //
 
 #import "ViewController.h"
+#import "CVGuideView.h"
 
 @interface ViewController ()
 
@@ -19,6 +20,17 @@
     // Do any additional setup after loading the view, typically from a nib.
 }
 
+- (IBAction)btnAction:(id)sender {
+    [self show:sender];
+}
+
+- (void)show:(id)sender {
+    UIView *view = (UIView *)sender;
+    CVGuideView *gui = [[CVGuideView alloc]initWithSubviewFram:view.frame withMessgae:@"点击屏幕移除当前指引涂层"];
+    [gui setGuideViewHasDismiss:^(id objc) {
+        NSLog(@"已经移除");
+    }];
+}
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];

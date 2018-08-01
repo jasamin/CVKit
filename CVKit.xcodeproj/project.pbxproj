@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		5A2D73940916AEB7D8442ED4 /* libPods-CVKit.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9615FAE80A6D507A27435557 /* libPods-CVKit.a */; };
 		E0BAC878211146AD006F83CE /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E0BAC877211146AD006F83CE /* AppDelegate.m */; };
 		E0BAC87B211146AD006F83CE /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E0BAC87A211146AD006F83CE /* ViewController.m */; };
 		E0BAC87E211146AD006F83CE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E0BAC87C211146AD006F83CE /* Main.storyboard */; };
@@ -15,6 +16,7 @@
 		E0BAC886211146AF006F83CE /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = E0BAC885211146AF006F83CE /* main.m */; };
 		E0BAC890211146AF006F83CE /* CVKitTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E0BAC88F211146AF006F83CE /* CVKitTests.m */; };
 		E0BAC89B211146AF006F83CE /* CVKitUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = E0BAC89A211146AF006F83CE /* CVKitUITests.m */; };
+		E0BAC8AD211151B3006F83CE /* CVGuideView.m in Sources */ = {isa = PBXBuildFile; fileRef = E0BAC8AC211151B3006F83CE /* CVGuideView.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -35,6 +37,9 @@
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
+		0283D19E1100C56E7697EFD9 /* Pods-CVKit.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CVKit.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CVKit/Pods-CVKit.debug.xcconfig"; sourceTree = "<group>"; };
+		9615FAE80A6D507A27435557 /* libPods-CVKit.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-CVKit.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		C13653D333879FC97F8B9F89 /* Pods-CVKit.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CVKit.release.xcconfig"; path = "Pods/Target Support Files/Pods-CVKit/Pods-CVKit.release.xcconfig"; sourceTree = "<group>"; };
 		E0BAC873211146AD006F83CE /* CVKit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CVKit.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E0BAC876211146AD006F83CE /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		E0BAC877211146AD006F83CE /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -51,6 +56,9 @@
 		E0BAC896211146AF006F83CE /* CVKitUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CVKitUITests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		E0BAC89A211146AF006F83CE /* CVKitUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CVKitUITests.m; sourceTree = "<group>"; };
 		E0BAC89C211146AF006F83CE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		E0BAC8A921114E1C006F83CE /* CVHeader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CVHeader.h; sourceTree = "<group>"; };
+		E0BAC8AB211151B3006F83CE /* CVGuideView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CVGuideView.h; sourceTree = "<group>"; };
+		E0BAC8AC211151B3006F83CE /* CVGuideView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CVGuideView.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -58,6 +66,7 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				5A2D73940916AEB7D8442ED4 /* libPods-CVKit.a in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -78,6 +87,23 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		0F3AF891E919DD06DCE45E2D /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				9615FAE80A6D507A27435557 /* libPods-CVKit.a */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		DE169547FEBB034C38941DDA /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				0283D19E1100C56E7697EFD9 /* Pods-CVKit.debug.xcconfig */,
+				C13653D333879FC97F8B9F89 /* Pods-CVKit.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
 		E0BAC86A211146AD006F83CE = {
 			isa = PBXGroup;
 			children = (
@@ -85,6 +111,8 @@
 				E0BAC88E211146AF006F83CE /* CVKitTests */,
 				E0BAC899211146AF006F83CE /* CVKitUITests */,
 				E0BAC874211146AD006F83CE /* Products */,
+				DE169547FEBB034C38941DDA /* Pods */,
+				0F3AF891E919DD06DCE45E2D /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -101,6 +129,7 @@
 		E0BAC875211146AD006F83CE /* CVKit */ = {
 			isa = PBXGroup;
 			children = (
+				E0BAC8A821114DCF006F83CE /* kit */,
 				E0BAC876211146AD006F83CE /* AppDelegate.h */,
 				E0BAC877211146AD006F83CE /* AppDelegate.m */,
 				E0BAC879211146AD006F83CE /* ViewController.h */,
@@ -132,6 +161,24 @@
 			path = CVKitUITests;
 			sourceTree = "<group>";
 		};
+		E0BAC8A821114DCF006F83CE /* kit */ = {
+			isa = PBXGroup;
+			children = (
+				E0BAC8AA21114F31006F83CE /* HeightViewGuider */,
+				E0BAC8A921114E1C006F83CE /* CVHeader.h */,
+			);
+			path = kit;
+			sourceTree = "<group>";
+		};
+		E0BAC8AA21114F31006F83CE /* HeightViewGuider */ = {
+			isa = PBXGroup;
+			children = (
+				E0BAC8AB211151B3006F83CE /* CVGuideView.h */,
+				E0BAC8AC211151B3006F83CE /* CVGuideView.m */,
+			);
+			path = HeightViewGuider;
+			sourceTree = "<group>";
+		};
 /* End PBXGroup section */
 
 /* Begin PBXNativeTarget section */
@@ -139,6 +186,7 @@
 			isa = PBXNativeTarget;
 			buildConfigurationList = E0BAC89F211146AF006F83CE /* Build configuration list for PBXNativeTarget "CVKit" */;
 			buildPhases = (
+				3F0D96815CDA86FE6911EC6B /* [CP] Check Pods Manifest.lock */,
 				E0BAC86F211146AD006F83CE /* Sources */,
 				E0BAC870211146AD006F83CE /* Frameworks */,
 				E0BAC871211146AD006F83CE /* Resources */,
@@ -194,6 +242,7 @@
 		E0BAC86B211146AD006F83CE /* Project object */ = {
 			isa = PBXProject;
 			attributes = {
+				CLASSPREFIX = CV;
 				LastUpgradeCheck = 0940;
 				ORGANIZATIONNAME = Hanrun;
 				TargetAttributes = {
@@ -257,6 +306,27 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		3F0D96815CDA86FE6911EC6B /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-CVKit-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		E0BAC86F211146AD006F83CE /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -264,6 +334,7 @@
 			files = (
 				E0BAC87B211146AD006F83CE /* ViewController.m in Sources */,
 				E0BAC886211146AF006F83CE /* main.m in Sources */,
+				E0BAC8AD211151B3006F83CE /* CVGuideView.m in Sources */,
 				E0BAC878211146AD006F83CE /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -431,6 +502,7 @@
 		};
 		E0BAC8A0211146AF006F83CE /* Debug */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = 0283D19E1100C56E7697EFD9 /* Pods-CVKit.debug.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
@@ -447,6 +519,7 @@
 		};
 		E0BAC8A1211146AF006F83CE /* Release */ = {
 			isa = XCBuildConfiguration;
+			baseConfigurationReference = C13653D333879FC97F8B9F89 /* Pods-CVKit.release.xcconfig */;
 			buildSettings = {
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
