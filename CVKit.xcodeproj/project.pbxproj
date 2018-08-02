@@ -17,6 +17,7 @@
 		E0BAC890211146AF006F83CE /* CVKitTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E0BAC88F211146AF006F83CE /* CVKitTests.m */; };
 		E0BAC89B211146AF006F83CE /* CVKitUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = E0BAC89A211146AF006F83CE /* CVKitUITests.m */; };
 		E0BAC8AD211151B3006F83CE /* CVGuideView.m in Sources */ = {isa = PBXBuildFile; fileRef = E0BAC8AC211151B3006F83CE /* CVGuideView.m */; };
+		E0F7B9962112A9E300B363B9 /* CVReaderVC.m in Sources */ = {isa = PBXBuildFile; fileRef = E0F7B9952112A9E300B363B9 /* CVReaderVC.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -59,6 +60,8 @@
 		E0BAC8A921114E1C006F83CE /* CVHeader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CVHeader.h; sourceTree = "<group>"; };
 		E0BAC8AB211151B3006F83CE /* CVGuideView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CVGuideView.h; sourceTree = "<group>"; };
 		E0BAC8AC211151B3006F83CE /* CVGuideView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CVGuideView.m; sourceTree = "<group>"; };
+		E0F7B9942112A9E300B363B9 /* CVReaderVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CVReaderVC.h; sourceTree = "<group>"; };
+		E0F7B9952112A9E300B363B9 /* CVReaderVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CVReaderVC.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -164,6 +167,7 @@
 		E0BAC8A821114DCF006F83CE /* kit */ = {
 			isa = PBXGroup;
 			children = (
+				E0F7B9922112A86500B363B9 /* PageViewController */,
 				E0BAC8AA21114F31006F83CE /* HeightViewGuider */,
 				E0BAC8A921114E1C006F83CE /* CVHeader.h */,
 			);
@@ -177,6 +181,23 @@
 				E0BAC8AC211151B3006F83CE /* CVGuideView.m */,
 			);
 			path = HeightViewGuider;
+			sourceTree = "<group>";
+		};
+		E0F7B9922112A86500B363B9 /* PageViewController */ = {
+			isa = PBXGroup;
+			children = (
+				E0F7B9932112A87B00B363B9 /* ViewController */,
+			);
+			path = PageViewController;
+			sourceTree = "<group>";
+		};
+		E0F7B9932112A87B00B363B9 /* ViewController */ = {
+			isa = PBXGroup;
+			children = (
+				E0F7B9942112A9E300B363B9 /* CVReaderVC.h */,
+				E0F7B9952112A9E300B363B9 /* CVReaderVC.m */,
+			);
+			path = ViewController;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -335,6 +356,7 @@
 				E0BAC87B211146AD006F83CE /* ViewController.m in Sources */,
 				E0BAC886211146AF006F83CE /* main.m in Sources */,
 				E0BAC8AD211151B3006F83CE /* CVGuideView.m in Sources */,
+				E0F7B9962112A9E300B363B9 /* CVReaderVC.m in Sources */,
 				E0BAC878211146AD006F83CE /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

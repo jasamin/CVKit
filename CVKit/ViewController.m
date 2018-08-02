@@ -8,6 +8,7 @@
 
 #import "ViewController.h"
 #import "CVGuideView.h"
+#import "CVReaderVC.h"
 
 @interface ViewController ()
 
@@ -21,8 +22,15 @@
 }
 
 - (IBAction)btnAction:(id)sender {
-    [self show:sender];
+    //[self show:sender];//获取
+    [self showReaderPage];
 }
+
+- (void)showReaderPage {
+    CVReaderVC *vc = [[CVReaderVC alloc]init];
+    [self presentViewController:vc animated:YES completion:nil];
+}
+
 
 - (void)show:(id)sender {
     UIView *view = (UIView *)sender;

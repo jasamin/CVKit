@@ -38,8 +38,8 @@
         [self.maskView.layer addSublayer:self.masklayer];
         [self addSubview:self.messagelab];
         
-        //[self showMaskViewHeightlight];
-        [self showCornerMaskLayer];
+        [self showMaskViewHeightlight];
+        //[self showCornerMaskLayer];
         
     }
     return self;
