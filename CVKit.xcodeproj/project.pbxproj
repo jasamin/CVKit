@@ -8,6 +8,10 @@
 
 /* Begin PBXBuildFile section */
 		5A2D73940916AEB7D8442ED4 /* libPods-CVKit.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9615FAE80A6D507A27435557 /* libPods-CVKit.a */; };
+		E02D431F2134FEFD008391EE /* CVNextViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E02D431D2134FEFD008391EE /* CVNextViewController.m */; };
+		E02D43202134FEFD008391EE /* CVNextViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = E02D431E2134FEFD008391EE /* CVNextViewController.xib */; };
+		E02D43232135121F008391EE /* CVPushAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = E02D43222135121F008391EE /* CVPushAnimation.m */; };
+		E02D43262135169B008391EE /* CVPopAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = E02D43252135169B008391EE /* CVPopAnimation.m */; };
 		E0BAC878211146AD006F83CE /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E0BAC877211146AD006F83CE /* AppDelegate.m */; };
 		E0BAC87B211146AD006F83CE /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E0BAC87A211146AD006F83CE /* ViewController.m */; };
 		E0BAC87E211146AD006F83CE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E0BAC87C211146AD006F83CE /* Main.storyboard */; };
@@ -41,6 +45,13 @@
 		0283D19E1100C56E7697EFD9 /* Pods-CVKit.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CVKit.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CVKit/Pods-CVKit.debug.xcconfig"; sourceTree = "<group>"; };
 		9615FAE80A6D507A27435557 /* libPods-CVKit.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-CVKit.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C13653D333879FC97F8B9F89 /* Pods-CVKit.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CVKit.release.xcconfig"; path = "Pods/Target Support Files/Pods-CVKit/Pods-CVKit.release.xcconfig"; sourceTree = "<group>"; };
+		E02D431C2134FEFD008391EE /* CVNextViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CVNextViewController.h; sourceTree = "<group>"; };
+		E02D431D2134FEFD008391EE /* CVNextViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CVNextViewController.m; sourceTree = "<group>"; };
+		E02D431E2134FEFD008391EE /* CVNextViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CVNextViewController.xib; sourceTree = "<group>"; };
+		E02D43212135121F008391EE /* CVPushAnimation.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CVPushAnimation.h; sourceTree = "<group>"; };
+		E02D43222135121F008391EE /* CVPushAnimation.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CVPushAnimation.m; sourceTree = "<group>"; };
+		E02D43242135169B008391EE /* CVPopAnimation.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CVPopAnimation.h; sourceTree = "<group>"; };
+		E02D43252135169B008391EE /* CVPopAnimation.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CVPopAnimation.m; sourceTree = "<group>"; };
 		E0BAC873211146AD006F83CE /* CVKit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CVKit.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E0BAC876211146AD006F83CE /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		E0BAC877211146AD006F83CE /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -107,6 +118,17 @@
 			name = Pods;
 			sourceTree = "<group>";
 		};
+		E001F88A211C39F8002B5287 /* Animation */ = {
+			isa = PBXGroup;
+			children = (
+				E02D43212135121F008391EE /* CVPushAnimation.h */,
+				E02D43222135121F008391EE /* CVPushAnimation.m */,
+				E02D43242135169B008391EE /* CVPopAnimation.h */,
+				E02D43252135169B008391EE /* CVPopAnimation.m */,
+			);
+			path = Animation;
+			sourceTree = "<group>";
+		};
 		E0BAC86A211146AD006F83CE = {
 			isa = PBXGroup;
 			children = (
@@ -142,6 +164,9 @@
 				E0BAC881211146AF006F83CE /* LaunchScreen.storyboard */,
 				E0BAC884211146AF006F83CE /* Info.plist */,
 				E0BAC885211146AF006F83CE /* main.m */,
+				E02D431C2134FEFD008391EE /* CVNextViewController.h */,
+				E02D431D2134FEFD008391EE /* CVNextViewController.m */,
+				E02D431E2134FEFD008391EE /* CVNextViewController.xib */,
 			);
 			path = CVKit;
 			sourceTree = "<group>";
@@ -167,6 +192,7 @@
 		E0BAC8A821114DCF006F83CE /* kit */ = {
 			isa = PBXGroup;
 			children = (
+				E001F88A211C39F8002B5287 /* Animation */,
 				E0F7B9922112A86500B363B9 /* PageViewController */,
 				E0BAC8AA21114F31006F83CE /* HeightViewGuider */,
 				E0BAC8A921114E1C006F83CE /* CVHeader.h */,
@@ -305,6 +331,7 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E02D43202134FEFD008391EE /* CVNextViewController.xib in Resources */,
 				E0BAC883211146AF006F83CE /* LaunchScreen.storyboard in Resources */,
 				E0BAC880211146AF006F83CE /* Assets.xcassets in Resources */,
 				E0BAC87E211146AD006F83CE /* Main.storyboard in Resources */,
@@ -355,8 +382,11 @@
 			files = (
 				E0BAC87B211146AD006F83CE /* ViewController.m in Sources */,
 				E0BAC886211146AF006F83CE /* main.m in Sources */,
+				E02D431F2134FEFD008391EE /* CVNextViewController.m in Sources */,
+				E02D43262135169B008391EE /* CVPopAnimation.m in Sources */,
 				E0BAC8AD211151B3006F83CE /* CVGuideView.m in Sources */,
 				E0F7B9962112A9E300B363B9 /* CVReaderVC.m in Sources */,
+				E02D43232135121F008391EE /* CVPushAnimation.m in Sources */,
 				E0BAC878211146AD006F83CE /* AppDelegate.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;

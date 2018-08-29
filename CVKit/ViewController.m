@@ -9,21 +9,47 @@
 #import "ViewController.h"
 #import "CVGuideView.h"
 #import "CVReaderVC.h"
+#import "CVNextViewController.h"
+#import "CVPushAnimation.h"
+#import "CVPopAnimation.h"
 
-@interface ViewController ()
 
+
+@interface ViewController ()<UIViewControllerTransitioningDelegate,UINavigationControllerDelegate>
+{
+    CGRect rect;
+}
 @end
 
 @implementation ViewController
 
 - (void)viewDidLoad {
     [super viewDidLoad];
-    // Do any additional setup after loading the view, typically from a nib.
+}
+
+- (void)viewWillAppear:(BOOL)animated {
+    [super viewWillAppear:animated];
+    self.navigationController.delegate = self;
+}
+//
+-(id <UIViewControllerAnimatedTransitioning>)navigationController:(UINavigationController *)navigationController animationControllerForOperation:(UINavigationControllerOperation)operation fromViewController:(UIViewController *)fromVC toViewController:(UIViewController *)toVC {
+    if (operation == UINavigationControllerOperationPush) {
+        return [[CVPushAnimation alloc]initWithSubFrame:rect];
+    }
+    return nil;
 }
 
 - (IBAction)btnAction:(id)sender {
     //[self show:sender];//获取
-    [self showReaderPage];
+    //[self showReaderPage];
+     UIView *view = (UIView *)sender;
+    rect = view.frame;
+    CVNextViewController *vc = [[CVNextViewController alloc]init];
+    [self.navigationController pushViewController:vc animated:YES];
+}
+
+- (void)zhuanchangdonghua {
+    
 }
 
 - (void)showReaderPage {
@@ -39,6 +65,12 @@
         NSLog(@"已经移除");
     }];
 }
+
+
+
+
+
+
 
 - (void)didReceiveMemoryWarning {
     [super didReceiveMemoryWarning];
