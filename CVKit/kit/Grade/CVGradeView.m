@@ -203,7 +203,7 @@
         [timer invalidate];
     }
 
-    timer = [NSTimer scheduledTimerWithTimeInterval:0.05 target:self selector:@selector(subNumTo:) userInfo:nil repeats:YES];
+    timer = [NSTimer scheduledTimerWithTimeInterval:0.05 target:[CVWeakTarget proxyWithTarget:self] selector:@selector(subNumTo:) userInfo:nil repeats:YES];
 
 }
 
@@ -239,7 +239,7 @@
     b = (int)b;
     //console.log("#"+r.toString(16,2)+g.toString(16,2)+b.toString(16,2));    //return "#"+r.toString(16,2)+g.toString(16,2)+b.toString(16,2);    //console.log("rgb("+r+","+g+","+b+")" );
     return [UIColor colorWithRed:r/255.0 green:g/255.0 blue:b/255.0 alpha:1];
-
+    
 }
 
 

@@ -15,6 +15,7 @@
 		E01ADA592151E2DC003CFB26 /* CVModelTest.m in Sources */ = {isa = PBXBuildFile; fileRef = E01ADA582151E2DC003CFB26 /* CVModelTest.m */; };
 		E01CED2E215B20A700C3D35A /* CVGradeView.m in Sources */ = {isa = PBXBuildFile; fileRef = E01CED2D215B20A700C3D35A /* CVGradeView.m */; };
 		E01CED31215B264F00C3D35A /* CVGradeVC.m in Sources */ = {isa = PBXBuildFile; fileRef = E01CED30215B264F00C3D35A /* CVGradeVC.m */; };
+		E02CA7D8215CCFEF000538A3 /* CVWeakTarget.m in Sources */ = {isa = PBXBuildFile; fileRef = E02CA7D7215CCFEF000538A3 /* CVWeakTarget.m */; };
 		E02D431F2134FEFD008391EE /* CVNextViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E02D431D2134FEFD008391EE /* CVNextViewController.m */; };
 		E02D43202134FEFD008391EE /* CVNextViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = E02D431E2134FEFD008391EE /* CVNextViewController.xib */; };
 		E02D43232135121F008391EE /* CVPushAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = E02D43222135121F008391EE /* CVPushAnimation.m */; };
@@ -74,6 +75,8 @@
 		E01CED2D215B20A700C3D35A /* CVGradeView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CVGradeView.m; sourceTree = "<group>"; };
 		E01CED2F215B264F00C3D35A /* CVGradeVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CVGradeVC.h; sourceTree = "<group>"; };
 		E01CED30215B264F00C3D35A /* CVGradeVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CVGradeVC.m; sourceTree = "<group>"; };
+		E02CA7D6215CCFEF000538A3 /* CVWeakTarget.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CVWeakTarget.h; sourceTree = "<group>"; };
+		E02CA7D7215CCFEF000538A3 /* CVWeakTarget.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CVWeakTarget.m; sourceTree = "<group>"; };
 		E02D431C2134FEFD008391EE /* CVNextViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CVNextViewController.h; sourceTree = "<group>"; };
 		E02D431D2134FEFD008391EE /* CVNextViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CVNextViewController.m; sourceTree = "<group>"; };
 		E02D431E2134FEFD008391EE /* CVNextViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CVNextViewController.xib; sourceTree = "<group>"; };
@@ -202,6 +205,8 @@
 				E01CED2D215B20A700C3D35A /* CVGradeView.m */,
 				E01CED2F215B264F00C3D35A /* CVGradeVC.h */,
 				E01CED30215B264F00C3D35A /* CVGradeVC.m */,
+				E02CA7D6215CCFEF000538A3 /* CVWeakTarget.h */,
+				E02CA7D7215CCFEF000538A3 /* CVWeakTarget.m */,
 			);
 			path = Grade;
 			sourceTree = "<group>";
@@ -515,6 +520,7 @@
 				E01CED2E215B20A700C3D35A /* CVGradeView.m in Sources */,
 				E0DAEEA82140F5B8002F4CC7 /* CVEnergeticView.m in Sources */,
 				E01ADA572151E279003CFB26 /* CVModel.m in Sources */,
+				E02CA7D8215CCFEF000538A3 /* CVWeakTarget.m in Sources */,
 				E00100B3213F6DB000B1CAE5 /* CVSlider.m in Sources */,
 				E048EEA22147510200FC0FAA /* DeviceModel.m in Sources */,
 			);

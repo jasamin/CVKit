@@ -9,6 +9,7 @@
 #import <UIKit/UIKit.h>
 #import "UIView+YYAdd.h"
 #import "CVHeader.h"
+#import "CVWeakTarget.h"
 
 @interface CVGradeView : UIView
 @property(nonatomic,strong) UILabel *gradeLab;
