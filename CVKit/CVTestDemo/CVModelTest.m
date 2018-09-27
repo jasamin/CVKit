@@ -1,18 +1,18 @@
 //
-//  CVKitTests.m
+//  CVModelTest.m
 //  CVKitTests
 //
-//  Created by Hanrun on 2018/8/1.
+//  Created by Hanrun on 2018/9/19.
 //  Copyright © 2018年 Hanrun. All rights reserved.
 //
 
 #import <XCTest/XCTest.h>
-
-@interface CVKitTests : XCTestCase
+#import "CVModel.h"
+@interface CVModelTest : XCTestCase
 
 @end
 
-@implementation CVKitTests
+@implementation CVModelTest
 
 - (void)setUp {
     [super setUp];
@@ -25,17 +25,18 @@
 }
 
 - (void)testExample {
-    XCTAssert(YES,@"pass");
-    // This is an example of a functional test case.
-    // Use XCTAssert and related functions to verify your tests produce the correct results.
+    for(int j = 0;j < 10000;j++){
+        CVModel *model = [[CVModel alloc]init];
+        int i = [model randomNum];
+        NSLog(@"%d",i);
+        XCTAssert(i<99,@"please check i");
+    }
 }
 
 - (void)testPerformanceExample {
     // This is an example of a performance test case.
     [self measureBlock:^{
-        for (NSInteger index = 0; index < 10000; index ++) {
-            NSLog(@"%ld",index);
-        }
+        // Put the code you want to measure the time of here.
     }];
 }
 

@@ -12,7 +12,14 @@
 #import "CVNextViewController.h"
 #import "CVPushAnimation.h"
 #import "CVPopAnimation.h"
-
+#import "GasVC.h"
+#import "CVEnergeticView.h"
+#import "CVHeader.h"
+#import <UIView+YYAdd.h>
+#import "CVTVC.h"
+#import "CVShowPeopleAlertVC.h"
+#import "CVAnimationVC.h"
+#import "CVGradeVC.h"
 
 
 @interface ViewController ()<UIViewControllerTransitioningDelegate,UINavigationControllerDelegate>
@@ -25,11 +32,30 @@
 
 - (void)viewDidLoad {
     [super viewDidLoad];
+    [self powerView];
+    
+    [self addObserver:self forKeyPath:@"ahaha" options:NSKeyValueObservingOptionNew context:nil];
+    
+    
+}
+
+- (void)observeValueForKeyPath:(NSString *)keyPath ofObject:(id)object change:(NSDictionary<NSKeyValueChangeKey,id> *)change context:(void *)context{
+    if ([keyPath isEqualToString:@"ahaha"]) {
+        NSLog(@"新的");
+    }
+}
+
+- (void)powerView {
+    CVEnergeticView *view = [[CVEnergeticView alloc]initWithFrame:CGRectMake(0, 0, 200, 100)];
+    view.centerX = KSCREEN_WIDTH*.5;
+    view.centerY = KSCREEN_HEIGHT*.5;
+    [self.view addSubview:view];
 }
 
 - (void)viewWillAppear:(BOOL)animated {
     [super viewWillAppear:animated];
     self.navigationController.delegate = self;
+    [self.navigationController pushViewController:[[CVGradeVC alloc]init] animated:YES];
 }
 //
 -(id <UIViewControllerAnimatedTransitioning>)navigationController:(UINavigationController *)navigationController animationControllerForOperation:(UINavigationControllerOperation)operation fromViewController:(UIViewController *)fromVC toViewController:(UIViewController *)toVC {
@@ -44,8 +70,12 @@
     //[self showReaderPage];
      UIView *view = (UIView *)sender;
     rect = view.frame;
-    CVNextViewController *vc = [[CVNextViewController alloc]init];
+    self.ahaha = @"hhhh";
+    GasVC *vc = [[GasVC alloc]init];
     [self.navigationController pushViewController:vc animated:YES];
+    
+    //CVShowPeopleAlertVC *aler = [[CVShowPeopleAlertVC alloc]init];
+    //[self presentViewController:aler animated:NO completion:nil];
 }
 
 - (void)zhuanchangdonghua {

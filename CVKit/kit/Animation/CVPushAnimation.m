@@ -26,9 +26,6 @@
     return self;
 }
 
-
-
-
 //转场动画时间
 -(NSTimeInterval)transitionDuration:(id<UIViewControllerContextTransitioning>)transitionContext {
     return 0.4;
@@ -53,6 +50,7 @@
     CGFloat width = [UIScreen mainScreen].bounds.size.width;
     CGFloat height = [UIScreen mainScreen].bounds.size.height;
     toView.frame = surperViewFrame;
+    
     [UIView animateWithDuration:[self transitionDuration:transitionContext] animations:^{
         toView.frame = CGRectMake(0, 0, width, height);
     } completion:^(BOOL finished) {

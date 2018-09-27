@@ -8,10 +8,25 @@
 
 /* Begin PBXBuildFile section */
 		5A2D73940916AEB7D8442ED4 /* libPods-CVKit.a in Frameworks */ = {isa = PBXBuildFile; fileRef = 9615FAE80A6D507A27435557 /* libPods-CVKit.a */; };
+		E00100B3213F6DB000B1CAE5 /* CVSlider.m in Sources */ = {isa = PBXBuildFile; fileRef = E00100B2213F6DB000B1CAE5 /* CVSlider.m */; };
+		E0079A4D213D393B0028A451 /* DialView.m in Sources */ = {isa = PBXBuildFile; fileRef = E0079A4A213D393A0028A451 /* DialView.m */; };
+		E0079A4E213D393B0028A451 /* GasVC.m in Sources */ = {isa = PBXBuildFile; fileRef = E0079A4C213D393A0028A451 /* GasVC.m */; };
+		E01ADA572151E279003CFB26 /* CVModel.m in Sources */ = {isa = PBXBuildFile; fileRef = E01ADA562151E279003CFB26 /* CVModel.m */; };
+		E01ADA592151E2DC003CFB26 /* CVModelTest.m in Sources */ = {isa = PBXBuildFile; fileRef = E01ADA582151E2DC003CFB26 /* CVModelTest.m */; };
+		E01CED2E215B20A700C3D35A /* CVGradeView.m in Sources */ = {isa = PBXBuildFile; fileRef = E01CED2D215B20A700C3D35A /* CVGradeView.m */; };
+		E01CED31215B264F00C3D35A /* CVGradeVC.m in Sources */ = {isa = PBXBuildFile; fileRef = E01CED30215B264F00C3D35A /* CVGradeVC.m */; };
 		E02D431F2134FEFD008391EE /* CVNextViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E02D431D2134FEFD008391EE /* CVNextViewController.m */; };
 		E02D43202134FEFD008391EE /* CVNextViewController.xib in Resources */ = {isa = PBXBuildFile; fileRef = E02D431E2134FEFD008391EE /* CVNextViewController.xib */; };
 		E02D43232135121F008391EE /* CVPushAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = E02D43222135121F008391EE /* CVPushAnimation.m */; };
 		E02D43262135169B008391EE /* CVPopAnimation.m in Sources */ = {isa = PBXBuildFile; fileRef = E02D43252135169B008391EE /* CVPopAnimation.m */; };
+		E044170E214F86870000AD97 /* CVAnimationVC.m in Sources */ = {isa = PBXBuildFile; fileRef = E044170D214F86870000AD97 /* CVAnimationVC.m */; };
+		E048EE9821474CC300FC0FAA /* CVTVC.m in Sources */ = {isa = PBXBuildFile; fileRef = E048EE9621474CC300FC0FAA /* CVTVC.m */; };
+		E048EE9921474CC300FC0FAA /* CVTVC.xib in Resources */ = {isa = PBXBuildFile; fileRef = E048EE9721474CC300FC0FAA /* CVTVC.xib */; };
+		E048EE9E21474EB000FC0FAA /* DeviceCell.xib in Resources */ = {isa = PBXBuildFile; fileRef = E048EE9B21474EB000FC0FAA /* DeviceCell.xib */; };
+		E048EE9F21474EB000FC0FAA /* DeviceCell.m in Sources */ = {isa = PBXBuildFile; fileRef = E048EE9C21474EB000FC0FAA /* DeviceCell.m */; };
+		E048EEA22147510200FC0FAA /* DeviceModel.m in Sources */ = {isa = PBXBuildFile; fileRef = E048EEA02147510200FC0FAA /* DeviceModel.m */; };
+		E048EEA521478B5700FC0FAA /* CVAlertView.m in Sources */ = {isa = PBXBuildFile; fileRef = E048EEA421478B5700FC0FAA /* CVAlertView.m */; };
+		E048EEA821478CFB00FC0FAA /* CVShowPeopleAlertVC.m in Sources */ = {isa = PBXBuildFile; fileRef = E048EEA721478CFB00FC0FAA /* CVShowPeopleAlertVC.m */; };
 		E0BAC878211146AD006F83CE /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E0BAC877211146AD006F83CE /* AppDelegate.m */; };
 		E0BAC87B211146AD006F83CE /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E0BAC87A211146AD006F83CE /* ViewController.m */; };
 		E0BAC87E211146AD006F83CE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E0BAC87C211146AD006F83CE /* Main.storyboard */; };
@@ -21,6 +36,7 @@
 		E0BAC890211146AF006F83CE /* CVKitTests.m in Sources */ = {isa = PBXBuildFile; fileRef = E0BAC88F211146AF006F83CE /* CVKitTests.m */; };
 		E0BAC89B211146AF006F83CE /* CVKitUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = E0BAC89A211146AF006F83CE /* CVKitUITests.m */; };
 		E0BAC8AD211151B3006F83CE /* CVGuideView.m in Sources */ = {isa = PBXBuildFile; fileRef = E0BAC8AC211151B3006F83CE /* CVGuideView.m */; };
+		E0DAEEA82140F5B8002F4CC7 /* CVEnergeticView.m in Sources */ = {isa = PBXBuildFile; fileRef = E0DAEEA72140F5B8002F4CC7 /* CVEnergeticView.m */; };
 		E0F7B9962112A9E300B363B9 /* CVReaderVC.m in Sources */ = {isa = PBXBuildFile; fileRef = E0F7B9952112A9E300B363B9 /* CVReaderVC.m */; };
 /* End PBXBuildFile section */
 
@@ -45,6 +61,19 @@
 		0283D19E1100C56E7697EFD9 /* Pods-CVKit.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CVKit.debug.xcconfig"; path = "Pods/Target Support Files/Pods-CVKit/Pods-CVKit.debug.xcconfig"; sourceTree = "<group>"; };
 		9615FAE80A6D507A27435557 /* libPods-CVKit.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-CVKit.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 		C13653D333879FC97F8B9F89 /* Pods-CVKit.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CVKit.release.xcconfig"; path = "Pods/Target Support Files/Pods-CVKit/Pods-CVKit.release.xcconfig"; sourceTree = "<group>"; };
+		E00100B1213F6DAF00B1CAE5 /* CVSlider.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = CVSlider.h; sourceTree = "<group>"; };
+		E00100B2213F6DB000B1CAE5 /* CVSlider.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = CVSlider.m; sourceTree = "<group>"; };
+		E0079A49213D393A0028A451 /* DialView.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DialView.h; sourceTree = "<group>"; };
+		E0079A4A213D393A0028A451 /* DialView.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DialView.m; sourceTree = "<group>"; };
+		E0079A4B213D393A0028A451 /* GasVC.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = GasVC.h; sourceTree = "<group>"; };
+		E0079A4C213D393A0028A451 /* GasVC.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = GasVC.m; sourceTree = "<group>"; };
+		E01ADA552151E279003CFB26 /* CVModel.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CVModel.h; sourceTree = "<group>"; };
+		E01ADA562151E279003CFB26 /* CVModel.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CVModel.m; sourceTree = "<group>"; };
+		E01ADA582151E2DC003CFB26 /* CVModelTest.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CVModelTest.m; sourceTree = "<group>"; };
+		E01CED2C215B20A700C3D35A /* CVGradeView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CVGradeView.h; sourceTree = "<group>"; };
+		E01CED2D215B20A700C3D35A /* CVGradeView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CVGradeView.m; sourceTree = "<group>"; };
+		E01CED2F215B264F00C3D35A /* CVGradeVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CVGradeVC.h; sourceTree = "<group>"; };
+		E01CED30215B264F00C3D35A /* CVGradeVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CVGradeVC.m; sourceTree = "<group>"; };
 		E02D431C2134FEFD008391EE /* CVNextViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CVNextViewController.h; sourceTree = "<group>"; };
 		E02D431D2134FEFD008391EE /* CVNextViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CVNextViewController.m; sourceTree = "<group>"; };
 		E02D431E2134FEFD008391EE /* CVNextViewController.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CVNextViewController.xib; sourceTree = "<group>"; };
@@ -52,6 +81,20 @@
 		E02D43222135121F008391EE /* CVPushAnimation.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CVPushAnimation.m; sourceTree = "<group>"; };
 		E02D43242135169B008391EE /* CVPopAnimation.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CVPopAnimation.h; sourceTree = "<group>"; };
 		E02D43252135169B008391EE /* CVPopAnimation.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CVPopAnimation.m; sourceTree = "<group>"; };
+		E044170C214F86870000AD97 /* CVAnimationVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CVAnimationVC.h; sourceTree = "<group>"; };
+		E044170D214F86870000AD97 /* CVAnimationVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CVAnimationVC.m; sourceTree = "<group>"; };
+		E048EE9521474CC300FC0FAA /* CVTVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CVTVC.h; sourceTree = "<group>"; };
+		E048EE9621474CC300FC0FAA /* CVTVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CVTVC.m; sourceTree = "<group>"; };
+		E048EE9721474CC300FC0FAA /* CVTVC.xib */ = {isa = PBXFileReference; lastKnownFileType = file.xib; path = CVTVC.xib; sourceTree = "<group>"; };
+		E048EE9B21474EB000FC0FAA /* DeviceCell.xib */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = file.xib; path = DeviceCell.xib; sourceTree = "<group>"; };
+		E048EE9C21474EB000FC0FAA /* DeviceCell.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DeviceCell.m; sourceTree = "<group>"; };
+		E048EE9D21474EB000FC0FAA /* DeviceCell.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DeviceCell.h; sourceTree = "<group>"; };
+		E048EEA02147510200FC0FAA /* DeviceModel.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DeviceModel.m; sourceTree = "<group>"; };
+		E048EEA12147510200FC0FAA /* DeviceModel.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DeviceModel.h; sourceTree = "<group>"; };
+		E048EEA321478B5700FC0FAA /* CVAlertView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CVAlertView.h; sourceTree = "<group>"; };
+		E048EEA421478B5700FC0FAA /* CVAlertView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CVAlertView.m; sourceTree = "<group>"; };
+		E048EEA621478CFB00FC0FAA /* CVShowPeopleAlertVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CVShowPeopleAlertVC.h; sourceTree = "<group>"; };
+		E048EEA721478CFB00FC0FAA /* CVShowPeopleAlertVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CVShowPeopleAlertVC.m; sourceTree = "<group>"; };
 		E0BAC873211146AD006F83CE /* CVKit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CVKit.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E0BAC876211146AD006F83CE /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		E0BAC877211146AD006F83CE /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -71,6 +114,8 @@
 		E0BAC8A921114E1C006F83CE /* CVHeader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CVHeader.h; sourceTree = "<group>"; };
 		E0BAC8AB211151B3006F83CE /* CVGuideView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CVGuideView.h; sourceTree = "<group>"; };
 		E0BAC8AC211151B3006F83CE /* CVGuideView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CVGuideView.m; sourceTree = "<group>"; };
+		E0DAEEA62140F5B8002F4CC7 /* CVEnergeticView.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CVEnergeticView.h; sourceTree = "<group>"; };
+		E0DAEEA72140F5B8002F4CC7 /* CVEnergeticView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CVEnergeticView.m; sourceTree = "<group>"; };
 		E0F7B9942112A9E300B363B9 /* CVReaderVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CVReaderVC.h; sourceTree = "<group>"; };
 		E0F7B9952112A9E300B363B9 /* CVReaderVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CVReaderVC.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
@@ -129,6 +174,59 @@
 			path = Animation;
 			sourceTree = "<group>";
 		};
+		E0079A48213D393A0028A451 /* yishi */ = {
+			isa = PBXGroup;
+			children = (
+				E0079A49213D393A0028A451 /* DialView.h */,
+				E0079A4A213D393A0028A451 /* DialView.m */,
+				E0079A4B213D393A0028A451 /* GasVC.h */,
+				E0079A4C213D393A0028A451 /* GasVC.m */,
+			);
+			path = yishi;
+			sourceTree = "<group>";
+		};
+		E01ADA542151E028003CFB26 /* CVTestDemo */ = {
+			isa = PBXGroup;
+			children = (
+				E01ADA552151E279003CFB26 /* CVModel.h */,
+				E01ADA562151E279003CFB26 /* CVModel.m */,
+				E01ADA582151E2DC003CFB26 /* CVModelTest.m */,
+			);
+			path = CVTestDemo;
+			sourceTree = "<group>";
+		};
+		E01CED2B215B207B00C3D35A /* Grade */ = {
+			isa = PBXGroup;
+			children = (
+				E01CED2C215B20A700C3D35A /* CVGradeView.h */,
+				E01CED2D215B20A700C3D35A /* CVGradeView.m */,
+				E01CED2F215B264F00C3D35A /* CVGradeVC.h */,
+				E01CED30215B264F00C3D35A /* CVGradeVC.m */,
+			);
+			path = Grade;
+			sourceTree = "<group>";
+		};
+		E0441708214F85880000AD97 /* CAAnimation */ = {
+			isa = PBXGroup;
+			children = (
+				E044170C214F86870000AD97 /* CVAnimationVC.h */,
+				E044170D214F86870000AD97 /* CVAnimationVC.m */,
+			);
+			path = CAAnimation;
+			sourceTree = "<group>";
+		};
+		E048EE9A21474EA700FC0FAA /* cell */ = {
+			isa = PBXGroup;
+			children = (
+				E048EEA12147510200FC0FAA /* DeviceModel.h */,
+				E048EEA02147510200FC0FAA /* DeviceModel.m */,
+				E048EE9D21474EB000FC0FAA /* DeviceCell.h */,
+				E048EE9C21474EB000FC0FAA /* DeviceCell.m */,
+				E048EE9B21474EB000FC0FAA /* DeviceCell.xib */,
+			);
+			path = cell;
+			sourceTree = "<group>";
+		};
 		E0BAC86A211146AD006F83CE = {
 			isa = PBXGroup;
 			children = (
@@ -154,11 +252,14 @@
 		E0BAC875211146AD006F83CE /* CVKit */ = {
 			isa = PBXGroup;
 			children = (
+				E01ADA542151E028003CFB26 /* CVTestDemo */,
+				E048EE9A21474EA700FC0FAA /* cell */,
 				E0BAC8A821114DCF006F83CE /* kit */,
 				E0BAC876211146AD006F83CE /* AppDelegate.h */,
 				E0BAC877211146AD006F83CE /* AppDelegate.m */,
 				E0BAC879211146AD006F83CE /* ViewController.h */,
 				E0BAC87A211146AD006F83CE /* ViewController.m */,
+				E0079A48213D393A0028A451 /* yishi */,
 				E0BAC87C211146AD006F83CE /* Main.storyboard */,
 				E0BAC87F211146AF006F83CE /* Assets.xcassets */,
 				E0BAC881211146AF006F83CE /* LaunchScreen.storyboard */,
@@ -167,6 +268,13 @@
 				E02D431C2134FEFD008391EE /* CVNextViewController.h */,
 				E02D431D2134FEFD008391EE /* CVNextViewController.m */,
 				E02D431E2134FEFD008391EE /* CVNextViewController.xib */,
+				E0DAEEA62140F5B8002F4CC7 /* CVEnergeticView.h */,
+				E0DAEEA72140F5B8002F4CC7 /* CVEnergeticView.m */,
+				E048EE9521474CC300FC0FAA /* CVTVC.h */,
+				E048EE9621474CC300FC0FAA /* CVTVC.m */,
+				E048EE9721474CC300FC0FAA /* CVTVC.xib */,
+				E048EEA321478B5700FC0FAA /* CVAlertView.h */,
+				E048EEA421478B5700FC0FAA /* CVAlertView.m */,
 			);
 			path = CVKit;
 			sourceTree = "<group>";
@@ -192,10 +300,16 @@
 		E0BAC8A821114DCF006F83CE /* kit */ = {
 			isa = PBXGroup;
 			children = (
+				E01CED2B215B207B00C3D35A /* Grade */,
+				E0441708214F85880000AD97 /* CAAnimation */,
+				E00100B1213F6DAF00B1CAE5 /* CVSlider.h */,
+				E00100B2213F6DB000B1CAE5 /* CVSlider.m */,
 				E001F88A211C39F8002B5287 /* Animation */,
 				E0F7B9922112A86500B363B9 /* PageViewController */,
 				E0BAC8AA21114F31006F83CE /* HeightViewGuider */,
 				E0BAC8A921114E1C006F83CE /* CVHeader.h */,
+				E048EEA621478CFB00FC0FAA /* CVShowPeopleAlertVC.h */,
+				E048EEA721478CFB00FC0FAA /* CVShowPeopleAlertVC.m */,
 			);
 			path = kit;
 			sourceTree = "<group>";
@@ -331,10 +445,12 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E048EE9921474CC300FC0FAA /* CVTVC.xib in Resources */,
 				E02D43202134FEFD008391EE /* CVNextViewController.xib in Resources */,
 				E0BAC883211146AF006F83CE /* LaunchScreen.storyboard in Resources */,
 				E0BAC880211146AF006F83CE /* Assets.xcassets in Resources */,
 				E0BAC87E211146AD006F83CE /* Main.storyboard in Resources */,
+				E048EE9E21474EB000FC0FAA /* DeviceCell.xib in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -380,14 +496,27 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E01CED31215B264F00C3D35A /* CVGradeVC.m in Sources */,
+				E0079A4E213D393B0028A451 /* GasVC.m in Sources */,
+				E0079A4D213D393B0028A451 /* DialView.m in Sources */,
+				E044170E214F86870000AD97 /* CVAnimationVC.m in Sources */,
 				E0BAC87B211146AD006F83CE /* ViewController.m in Sources */,
+				E048EE9821474CC300FC0FAA /* CVTVC.m in Sources */,
+				E048EEA521478B5700FC0FAA /* CVAlertView.m in Sources */,
+				E048EEA821478CFB00FC0FAA /* CVShowPeopleAlertVC.m in Sources */,
 				E0BAC886211146AF006F83CE /* main.m in Sources */,
 				E02D431F2134FEFD008391EE /* CVNextViewController.m in Sources */,
 				E02D43262135169B008391EE /* CVPopAnimation.m in Sources */,
 				E0BAC8AD211151B3006F83CE /* CVGuideView.m in Sources */,
 				E0F7B9962112A9E300B363B9 /* CVReaderVC.m in Sources */,
+				E048EE9F21474EB000FC0FAA /* DeviceCell.m in Sources */,
 				E02D43232135121F008391EE /* CVPushAnimation.m in Sources */,
 				E0BAC878211146AD006F83CE /* AppDelegate.m in Sources */,
+				E01CED2E215B20A700C3D35A /* CVGradeView.m in Sources */,
+				E0DAEEA82140F5B8002F4CC7 /* CVEnergeticView.m in Sources */,
+				E01ADA572151E279003CFB26 /* CVModel.m in Sources */,
+				E00100B3213F6DB000B1CAE5 /* CVSlider.m in Sources */,
+				E048EEA22147510200FC0FAA /* DeviceModel.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -395,6 +524,7 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				E01ADA592151E2DC003CFB26 /* CVModelTest.m in Sources */,
 				E0BAC890211146AF006F83CE /* CVKitTests.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -566,6 +696,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.cv.CVKit;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
+				VALID_ARCHS = "arm64 armv7 armv7s \nShowing Recent Messages\nld: 35 duplicate symbols for architecture x86_64\n\n\n";
 			};
 			name = Debug;
 		};
@@ -583,6 +714,7 @@
 				PRODUCT_BUNDLE_IDENTIFIER = com.cv.CVKit;
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				TARGETED_DEVICE_FAMILY = "1,2";
+				VALID_ARCHS = "arm64 armv7 armv7s \nShowing Recent Messages\nld: 35 duplicate symbols for architecture x86_64\n\n\n";
 			};
 			name = Release;
 		};

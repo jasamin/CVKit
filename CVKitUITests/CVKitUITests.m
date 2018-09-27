@@ -33,8 +33,37 @@
 }
 
 - (void)testExample {
-    // Use recording to get started writing UI tests.
-    // Use XCTAssert and related functions to verify your tests produce the correct results.
+    
+
+    
+    XCUIApplication *app = [[XCUIApplication alloc] init];
+    XCUIElement *element = [[[[[app.otherElements containingType:XCUIElementTypeNavigationBar identifier:@"CVGradeVC"] childrenMatchingType:XCUIElementTypeOther].element childrenMatchingType:XCUIElementTypeOther].element childrenMatchingType:XCUIElementTypeOther].element childrenMatchingType:XCUIElementTypeOther].element;
+    [element tap];
+    [element tap];
+    [element tap];
+    [element tap];
+    [element tap];
+    [element tap];
+    [element tap];
+    [element tap];
+    [element tap];
+    
+    XCUIElement *backButton = app.navigationBars[@"CVGradeVC"].buttons[@"Back"];
+    [backButton tap];
+    [element tap];
+    [element tap];
+    [element tap];
+    [element tap];
+    [element tap];
+    [element tap];
+    [element tap];
+    [element tap];
+    [element tap];
+    [backButton tap];
+
+
 }
+
+
 
 @end
