@@ -20,7 +20,7 @@
 #import "CVShowPeopleAlertVC.h"
 #import "CVAnimationVC.h"
 #import "CVGradeVC.h"
-
+#import "ZNMainViewController.h"
 
 @interface ViewController ()<UIViewControllerTransitioningDelegate,UINavigationControllerDelegate>
 {
@@ -55,7 +55,9 @@
 - (void)viewWillAppear:(BOOL)animated {
     [super viewWillAppear:animated];
     self.navigationController.delegate = self;
-    [self.navigationController pushViewController:[[CVGradeVC alloc]init] animated:YES];
+    //[self.navigationController pushViewController:[[CVGradeVC alloc]init] animated:YES];
+    ZNMainViewController *vc = [[ZNMainViewController alloc]init];
+    [self.navigationController pushViewController:vc animated:YES];
 }
 //
 -(id <UIViewControllerAnimatedTransitioning>)navigationController:(UINavigationController *)navigationController animationControllerForOperation:(UINavigationControllerOperation)operation fromViewController:(UIViewController *)fromVC toViewController:(UIViewController *)toVC {
@@ -71,7 +73,7 @@
      UIView *view = (UIView *)sender;
     rect = view.frame;
     self.ahaha = @"hhhh";
-    GasVC *vc = [[GasVC alloc]init];
+    ZNMainViewController *vc = [[ZNMainViewController alloc]init];
     [self.navigationController pushViewController:vc animated:YES];
     
     //CVShowPeopleAlertVC *aler = [[CVShowPeopleAlertVC alloc]init];

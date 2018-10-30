@@ -28,6 +28,16 @@
 		E048EEA22147510200FC0FAA /* DeviceModel.m in Sources */ = {isa = PBXBuildFile; fileRef = E048EEA02147510200FC0FAA /* DeviceModel.m */; };
 		E048EEA521478B5700FC0FAA /* CVAlertView.m in Sources */ = {isa = PBXBuildFile; fileRef = E048EEA421478B5700FC0FAA /* CVAlertView.m */; };
 		E048EEA821478CFB00FC0FAA /* CVShowPeopleAlertVC.m in Sources */ = {isa = PBXBuildFile; fileRef = E048EEA721478CFB00FC0FAA /* CVShowPeopleAlertVC.m */; };
+		E061F48B218836EF00376327 /* CVViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E061F48A218836EF00376327 /* CVViewController.m */; };
+		E0780809216B43F9004451E9 /* ZNMainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E0780808216B43F8004451E9 /* ZNMainViewController.m */; };
+		E0780812216B4867004451E9 /* shebei_cszz.png in Resources */ = {isa = PBXBuildFile; fileRef = E078080B216B4866004451E9 /* shebei_cszz.png */; };
+		E0780813216B4867004451E9 /* shebei_dq.png in Resources */ = {isa = PBXBuildFile; fileRef = E078080C216B4866004451E9 /* shebei_dq.png */; };
+		E0780814216B4867004451E9 /* shebei_sxt.png in Resources */ = {isa = PBXBuildFile; fileRef = E078080D216B4866004451E9 /* shebei_sxt.png */; };
+		E0780815216B4867004451E9 /* shebei_tj.png in Resources */ = {isa = PBXBuildFile; fileRef = E078080E216B4866004451E9 /* shebei_tj.png */; };
+		E0780816216B4867004451E9 /* shebei_xfwl.png in Resources */ = {isa = PBXBuildFile; fileRef = E078080F216B4866004451E9 /* shebei_xfwl.png */; };
+		E0780817216B4867004451E9 /* shebei_zddw.png in Resources */ = {isa = PBXBuildFile; fileRef = E0780810216B4866004451E9 /* shebei_zddw.png */; };
+		E0780818216B4867004451E9 /* weibao.png in Resources */ = {isa = PBXBuildFile; fileRef = E0780811216B4866004451E9 /* weibao.png */; };
+		E078081A216B48D2004451E9 /* main_bg_top.png in Resources */ = {isa = PBXBuildFile; fileRef = E0780819216B48D2004451E9 /* main_bg_top.png */; };
 		E0BAC878211146AD006F83CE /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = E0BAC877211146AD006F83CE /* AppDelegate.m */; };
 		E0BAC87B211146AD006F83CE /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E0BAC87A211146AD006F83CE /* ViewController.m */; };
 		E0BAC87E211146AD006F83CE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = E0BAC87C211146AD006F83CE /* Main.storyboard */; };
@@ -98,6 +108,18 @@
 		E048EEA421478B5700FC0FAA /* CVAlertView.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CVAlertView.m; sourceTree = "<group>"; };
 		E048EEA621478CFB00FC0FAA /* CVShowPeopleAlertVC.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CVShowPeopleAlertVC.h; sourceTree = "<group>"; };
 		E048EEA721478CFB00FC0FAA /* CVShowPeopleAlertVC.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CVShowPeopleAlertVC.m; sourceTree = "<group>"; };
+		E061F489218836EF00376327 /* CVViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = CVViewController.h; sourceTree = "<group>"; };
+		E061F48A218836EF00376327 /* CVViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = CVViewController.m; sourceTree = "<group>"; };
+		E0780807216B43F3004451E9 /* ZNMainViewController.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = ZNMainViewController.h; sourceTree = "<group>"; };
+		E0780808216B43F8004451E9 /* ZNMainViewController.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = ZNMainViewController.m; sourceTree = "<group>"; };
+		E078080B216B4866004451E9 /* shebei_cszz.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = shebei_cszz.png; sourceTree = "<group>"; };
+		E078080C216B4866004451E9 /* shebei_dq.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = shebei_dq.png; sourceTree = "<group>"; };
+		E078080D216B4866004451E9 /* shebei_sxt.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = shebei_sxt.png; sourceTree = "<group>"; };
+		E078080E216B4866004451E9 /* shebei_tj.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = shebei_tj.png; sourceTree = "<group>"; };
+		E078080F216B4866004451E9 /* shebei_xfwl.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = shebei_xfwl.png; sourceTree = "<group>"; };
+		E0780810216B4866004451E9 /* shebei_zddw.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = shebei_zddw.png; sourceTree = "<group>"; };
+		E0780811216B4866004451E9 /* weibao.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = weibao.png; sourceTree = "<group>"; };
+		E0780819216B48D2004451E9 /* main_bg_top.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = main_bg_top.png; sourceTree = "<group>"; };
 		E0BAC873211146AD006F83CE /* CVKit.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = CVKit.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		E0BAC876211146AD006F83CE /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		E0BAC877211146AD006F83CE /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -232,6 +254,21 @@
 			path = cell;
 			sourceTree = "<group>";
 		};
+		E078080A216B4866004451E9 /* images */ = {
+			isa = PBXGroup;
+			children = (
+				E0780819216B48D2004451E9 /* main_bg_top.png */,
+				E078080B216B4866004451E9 /* shebei_cszz.png */,
+				E078080C216B4866004451E9 /* shebei_dq.png */,
+				E078080D216B4866004451E9 /* shebei_sxt.png */,
+				E078080E216B4866004451E9 /* shebei_tj.png */,
+				E078080F216B4866004451E9 /* shebei_xfwl.png */,
+				E0780810216B4866004451E9 /* shebei_zddw.png */,
+				E0780811216B4866004451E9 /* weibao.png */,
+			);
+			path = images;
+			sourceTree = "<group>";
+		};
 		E0BAC86A211146AD006F83CE = {
 			isa = PBXGroup;
 			children = (
@@ -264,6 +301,9 @@
 				E0BAC877211146AD006F83CE /* AppDelegate.m */,
 				E0BAC879211146AD006F83CE /* ViewController.h */,
 				E0BAC87A211146AD006F83CE /* ViewController.m */,
+				E0780807216B43F3004451E9 /* ZNMainViewController.h */,
+				E0780808216B43F8004451E9 /* ZNMainViewController.m */,
+				E078080A216B4866004451E9 /* images */,
 				E0079A48213D393A0028A451 /* yishi */,
 				E0BAC87C211146AD006F83CE /* Main.storyboard */,
 				E0BAC87F211146AF006F83CE /* Assets.xcassets */,
@@ -280,6 +320,8 @@
 				E048EE9721474CC300FC0FAA /* CVTVC.xib */,
 				E048EEA321478B5700FC0FAA /* CVAlertView.h */,
 				E048EEA421478B5700FC0FAA /* CVAlertView.m */,
+				E061F489218836EF00376327 /* CVViewController.h */,
+				E061F48A218836EF00376327 /* CVViewController.m */,
 			);
 			path = CVKit;
 			sourceTree = "<group>";
@@ -451,11 +493,19 @@
 			buildActionMask = 2147483647;
 			files = (
 				E048EE9921474CC300FC0FAA /* CVTVC.xib in Resources */,
+				E0780818216B4867004451E9 /* weibao.png in Resources */,
+				E0780814216B4867004451E9 /* shebei_sxt.png in Resources */,
 				E02D43202134FEFD008391EE /* CVNextViewController.xib in Resources */,
+				E0780815216B4867004451E9 /* shebei_tj.png in Resources */,
 				E0BAC883211146AF006F83CE /* LaunchScreen.storyboard in Resources */,
 				E0BAC880211146AF006F83CE /* Assets.xcassets in Resources */,
+				E0780817216B4867004451E9 /* shebei_zddw.png in Resources */,
+				E0780813216B4867004451E9 /* shebei_dq.png in Resources */,
+				E078081A216B48D2004451E9 /* main_bg_top.png in Resources */,
 				E0BAC87E211146AD006F83CE /* Main.storyboard in Resources */,
 				E048EE9E21474EB000FC0FAA /* DeviceCell.xib in Resources */,
+				E0780816216B4867004451E9 /* shebei_xfwl.png in Resources */,
+				E0780812216B4867004451E9 /* shebei_cszz.png in Resources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -506,6 +556,7 @@
 				E0079A4D213D393B0028A451 /* DialView.m in Sources */,
 				E044170E214F86870000AD97 /* CVAnimationVC.m in Sources */,
 				E0BAC87B211146AD006F83CE /* ViewController.m in Sources */,
+				E061F48B218836EF00376327 /* CVViewController.m in Sources */,
 				E048EE9821474CC300FC0FAA /* CVTVC.m in Sources */,
 				E048EEA521478B5700FC0FAA /* CVAlertView.m in Sources */,
 				E048EEA821478CFB00FC0FAA /* CVShowPeopleAlertVC.m in Sources */,
@@ -520,6 +571,7 @@
 				E01CED2E215B20A700C3D35A /* CVGradeView.m in Sources */,
 				E0DAEEA82140F5B8002F4CC7 /* CVEnergeticView.m in Sources */,
 				E01ADA572151E279003CFB26 /* CVModel.m in Sources */,
+				E0780809216B43F9004451E9 /* ZNMainViewController.m in Sources */,
 				E02CA7D8215CCFEF000538A3 /* CVWeakTarget.m in Sources */,
 				E00100B3213F6DB000B1CAE5 /* CVSlider.m in Sources */,
 				E048EEA22147510200FC0FAA /* DeviceModel.m in Sources */,
